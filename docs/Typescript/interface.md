@@ -1,5 +1,3 @@
-# 인터페이스
-
 📌 보통 타입 체크를 위해 사용되며 변수, 함수, 클래스에 사용될 수 있음
 
 ```tsx
@@ -160,7 +158,7 @@ interface NumberDictionary {
 
 ## 클래스 타입(Class types)
 
-- 기본적인 interface를 이용한 class 생성
+- 기본적인 `interface`를 이용한 `class` 생성
 
 ```tsx
 interface ClockInterface {
@@ -179,7 +177,7 @@ class Clock implements ClockInterface {
 const clock = new Clock(1, 2);
 ```
 
-- class의 생성자를 interface의 construct signature로 직접 검사할 수 없음
+- class의 생성자를 `interface`의 construct signature로 직접 검사할 수 없음
 
 ```tsx
 interface ClockConstructor {
@@ -194,7 +192,7 @@ class Clock implements ClockConstructor {
 }
 ```
 
-- 생성함수를 만들어서 class의 생성자 간접 검사
+- 생성함수를 만들어서 `class`의 생성자 간접 검사
 
 ```tsx
 interface ClockInterface {
@@ -255,7 +253,7 @@ const Clock: ClockConstructor = class Clock implements ClockInterface {
 
 ## 인터페이스 확장(Extending Interfaces)
 
-📌 한 인터페이스의 멤버를 extends를 이용하여 다른 인터페이스에 복사할 수 있음
+📌 한 인터페이스의 멤버를 `extends`를 이용하여 다른 인터페이스에 복사할 수 있음
 
 ```tsx
 interface Shape {
