@@ -1,5 +1,7 @@
 # 기본 타입
 
+<div style="text-align: right">2020.12.15</div>
+
 ## 불리언(`boolean`)
 
 ```tsx

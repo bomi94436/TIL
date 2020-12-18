@@ -1,1 +1,5 @@
-exports.Typescript = ["Typescript/basic-types", "Typescript/interface"];
+exports.Typescript = [
+  "Typescript/basic-types",
+  "Typescript/interfaces",
+  "Typescript/classes",
+];
