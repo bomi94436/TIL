@@ -264,3 +264,5 @@ alert("card: " + pickedCard1.card + " of " + pickedCard1.suit);
 let pickedCard2 = pickCard(15);
 alert("card: " + pickedCard2.card + " of " + pickedCard2.suit);
 ```
+
+> 참고자료 출처<br/>[Typescript-Handbook-ko - Function](https://typescript-handbook-ko.org/pages/functions.html)<br/>[HEROPY Tech - 한눈에 보는 타입스크립트(updated)](https://heropy.blog/2020/01/27/typescript/)

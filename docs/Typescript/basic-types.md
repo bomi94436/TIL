@@ -243,3 +243,5 @@ let strLength: number = (<string>someValue).length;
 let someValue: any = "this is a string";
 let strLength: number = (someValue as string).length;
 ```
+
+> 참고자료 출처<br/>[Typescript-Handbook-ko - Basic Types](https://typescript-handbook-ko.org/pages/basic-types.html)<br/>[HEROPY Tech - 한눈에 보는 타입스크립트(updated)](https://heropy.blog/2020/01/27/typescript/)

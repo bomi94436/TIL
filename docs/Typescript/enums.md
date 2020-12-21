@@ -312,4 +312,4 @@ declare enum Directions {
 console.log(Directions.LeftUp); // undefined, 에러는 나지않음
 ```
 
-> 출처<br/> [Typescript-Handbook-ko - Enums](<[https://typescript-handbook-ko.org/pages/enums.html](https://typescript-handbook-ko.org/pages/enums.html)>)<br/> [Medium - Introduction to TypeScript Enums — Const and Ambient Enums](<[https://levelup.gitconnected.com/introduction-to-typescript-enums-const-and-ambient-enums-1fe686b67495](https://levelup.gitconnected.com/introduction-to-typescript-enums-const-and-ambient-enums-1fe686b67495)>)
+> 참고자료 출처<br/> [Typescript-Handbook-ko - Enums](https://typescript-handbook-ko.org/pages/enums.html)<br/> [Medium - Introduction to TypeScript Enums — Const and Ambient Enums](https://levelup.gitconnected.com/introduction-to-typescript-enums-const-and-ambient-enums-1fe686b67495)

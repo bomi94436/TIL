@@ -201,3 +201,5 @@ class Animal implements AnimalInterface {
 let cat = create<AnimalInterface>(Animal, "Cat");
 console.log(cat.name);
 ```
+
+> 참고자료 출처<br/>[Typescript-Handbook-ko - Generics](https://typescript-handbook-ko.org/pages/generics.html)<br/>[HEROPY Tech - 한눈에 보는 타입스크립트(updated)](https://heropy.blog/2020/01/27/typescript/)

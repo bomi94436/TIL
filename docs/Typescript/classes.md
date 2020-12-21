@@ -441,3 +441,5 @@ interface Point3d extends Point {
 
 let point3d: Point3d = { x: 1, y: 2, z: 3 };
 ```
+
+> 참고자료 출처<br/>[Typescript-Handbook-ko - Classes](https://typescript-handbook-ko.org/pages/classes.html)<br/>[HEROPY Tech - 한눈에 보는 타입스크립트(updated)](https://heropy.blog/2020/01/27/typescript/)
