@@ -5,4 +5,5 @@ exports.Typescript = [
   "Typescript/functions",
   "Typescript/generics",
   "Typescript/enums",
+  "Typescript/type-compatibility",
 ];
