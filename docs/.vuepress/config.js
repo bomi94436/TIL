@@ -11,6 +11,10 @@ module.exports = {
         title: "Typescript",
         children: List.Typescript,
       },
+      {
+        title: "Book",
+        children: List.Book,
+      },
     ],
   },
 };
