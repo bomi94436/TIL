@@ -9,6 +9,7 @@ exports.Typescript = [
   "Typescript/type-inference",
   "Typescript/advanced-types",
   "Typescript/symbols",
+  "Typescript/iterators-and-generators",
 ];
 
 exports.Book = ["Book/객체지향의_사실과_오해"];
